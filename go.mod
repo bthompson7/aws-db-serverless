@@ -1,4 +1,4 @@
-module utils
+module github.com/bthompson7/aws-db-serverless
 
 go 1.22.5
 
