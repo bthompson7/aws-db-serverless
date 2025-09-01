@@ -26,3 +26,25 @@ func Connect(connectionString string) (*sql.DB, error) {
 
 	return db, err
 }
+
+// Returns a list of valid origins
+//
+// Parameters:
+//   - None
+//
+// Returns:
+//   - A list of valid origins
+func ValidOrigins() []string {
+	return []string{"https://staging.benpthom.com", "https://benpthom.com"}
+}
+
+// Returns a list of valid component names
+//
+// Parameters:
+//   - None
+//
+// Returns:
+//   - A list of valid component names
+func ValidComponents() []string {
+	return []string{"About", "Experience", "Skills", "Projects"}
+}
